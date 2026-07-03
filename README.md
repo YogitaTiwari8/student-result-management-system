@@ -16,9 +16,7 @@ This project models a small classroom of students, each with marks in multiple s
 | Group students by grade | `Collectors.groupingBy()` |
 | Separate pass/fail students | `Collectors.partitioningBy()` |
 | Class average, min, max | `summaryStatistics()` |
-| Join names of passed students | `Collectors.joining()` |
 | Subject-wise topper | `max()` with custom `Comparator` |
-| Sum of all marks (multi-core) | `parallelStream()` |
 
 ## 🗂️ Project Structure
 
